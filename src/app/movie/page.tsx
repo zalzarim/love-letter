@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-    title: "shared dinner | love letter to kev",
+    title: "movie ladder | love letter to kev",
     description: "from zal",
   };
 
