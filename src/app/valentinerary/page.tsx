@@ -8,11 +8,11 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="h-screen bg-[#f5f5f4] flex flex-col gap-6 justify-center items-center">
-        <div>
-            <p className="text-[#773d11] text-3xl font-black">Valentinerary</p>
-        </div>
+      <div>
+          <p className="text-[#773d11] text-3xl font-black">Valentinerary</p>
+      </div>
 
-        <div className="relative w-[500px] h-auto">
+      <div className="relative w-[500px] h-auto">
         <img src="/images/paper.png" alt="Paper" className="w-full h-auto" />
 
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center w-[80%] text-center text-[#773d11] text-2xl space-y-2 gap-4">
