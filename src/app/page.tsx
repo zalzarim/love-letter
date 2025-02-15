@@ -17,7 +17,7 @@ export default function Home() {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       if (input.trim() === "DAWG") {
-        router.push("/agenda");
+        router.push("/valentinerary");
       } else {
         setInput("");
       }
@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <div className="h-screen bg-[#e3f1ff] flex flex-col gap-6 items-center justify-center">
+    <div className="h-screen bg-[#f5f5f4] flex flex-col gap-6 items-center justify-center">
       <div id="header">
         <p className="text-black text-2xl font-bold">{"You've got mail!"}</p>
       </div>
