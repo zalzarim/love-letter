@@ -21,7 +21,7 @@ export default function Home() {
                     
                     <div className="flex flex-col text-[#773d11] justify-center">
                         <p>him</p>
-                        <p>pickup @ tanoor, 7:30pm</p>
+                        <p>{"pickup @ tanoor, 7:30pm"}</p>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@ export default function Home() {
                     </div>                
                     <div className="flex flex-col text-[#773d11] justify-center">
                         <p>her</p>
-                        <p>delivery from al sabe'e, 1:30pm</p>
+                        <p>{"delivery from al sabe'e, 1:30pm"}</p>
                     </div>
                 </div>
             </div>
