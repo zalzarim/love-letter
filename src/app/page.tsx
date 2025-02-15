@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="h-screen bg-[#e3f1ff] flex flex-col gap-6 items-center justify-center">
       <div id="header">
-        <p className="text-black text-2xl font-bold">You've got mail!</p>
+        <p className="text-black text-2xl font-bold">{"You've got mail!"}</p>
       </div>
 
       <button 
